@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ maingit branch ]
+    branches: [ main ]
   schedule:   
     - cron: '0 12 * * *'
 
